@@ -1,0 +1,85 @@
+.login-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 8rem;
+}
+
+.login-box h1{
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 116%;
+}
+
+.login-box p{
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 116%;
+    text-align: center;
+}
+
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.login-form p{
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%;
+    text-align: left;
+    padding: 1rem 0 1rem 0;
+}
+
+.login-form input{
+    width: 38.8125rem;
+    height: 3.1875rem; 
+    border-radius: 0.625rem;
+    border: 0.5px solid rgba(0, 0, 0, 0.70); 
+    font-size: 0.875rem;
+    font-style: normal;
+    padding: 1rem;
+    font-weight: 400;
+    line-height: 116%;
+    outline: none;
+}
+
+.login-form p a{
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 116%; /* 1.015rem */
+    text-decoration-line: underline;
+    justify-self: center;
+}
+
+.btn-box{
+    margin-top: 1rem;
+    
+}
+
+.btn-box button{
+    width: 38.8125rem;
+    height: 3.1875rem; 
+    border-radius: 0.625rem;
+    font-style: normal;
+    padding: 1rem;
+    font-weight: 400;
+    line-height: 116%;
+    border: none;
+    background:  var(--new-blue, #359EFF);
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-box button:hover{
+    background:  var(--new-blue, #103353);
+}

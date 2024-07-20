@@ -1,0 +1,16 @@
+.architecture-container{
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.architecture-container img{
+    width: 100%;
+}
+.architecture-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
